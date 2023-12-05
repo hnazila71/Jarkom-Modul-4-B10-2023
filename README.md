@@ -499,6 +499,15 @@
         </tr>
     </tbody>
 </table>
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/e60f4543-3004-4acf-bb04-65cfcd8ff999)
+
+Kami membuat tree dengan penjelasan 
+1. Kami membuat parent awal 192.183.0.0/11 itu IP paling awal jika di tabel adalah L1 paling bawah. Jadi pembacaannya dari bawah ke atas
+2. Setelah parent terbuat ip akan diturunkan pada kedua anaknya dengan awal ip sama tetapi Netmask yang berbeda
+   ![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/9fb25a49-1caf-43f9-a55a-3f7c5fd2b784)
+3. Jika sudah diturunkan ipnya, dapat dibandingan. Jika netmasknya lebih besar (/12 > /14 
+
+
 
 
 
