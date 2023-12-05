@@ -1,4 +1,4 @@
-# Jarkom-Modul-4-B10-2023
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/986b5b04-287d-471a-a9ac-15abecd5cdb0)# Jarkom-Modul-4-B10-2023
 
 ### Nama Anggota B10
  <table>
@@ -169,6 +169,336 @@
 	 </tr>
 </table>
 
+### Penggabungan Kedelapan
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/f4840c2d-e9a4-4b07-84e7-645459bf56cb)
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/9546d6e9-ad31-416a-b342-f6708239d8c8)
+
+
+<table>
+ 	<tr>
+ 		<td> Subnet Baru </td>
+ 		<td> Subnet Gabungan </td>
+ 	</tr>
+ 	<tr>
+ 		<td> I1 </td>
+ 		<td> H1 dan A20</td>
+ 	</tr>
+	 <tr>
+		 <td> I2 </td>
+ 		<td> H2 dan A12</td>
+	 </tr>
+</table>
+
+### Penggabungan Kesimbilan
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/58fb9302-2145-429f-b405-245d76266f32)
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/867a2202-c6ad-4aed-96c1-39677f47a2d5)
+
+
+
+
+<table>
+ 	<tr>
+ 		<td> Subnet Baru </td>
+ 		<td> Subnet Gabungan </td>
+ 	</tr>
+ 	<tr>
+ 		<td> J1 </td>
+ 		<td> I1 dan A17</td>
+ 	</tr>
+	 <tr>
+		 <td> J2 </td>
+ 		<td> I2 dan A18</td>
+	 </tr>
+</table>
+
+### Penggabungan Kesepuluh
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/c86815f3-c28d-4e07-b656-afe6773ba99c)
+
+<table>
+ 	<tr>
+ 		<td> Subnet Baru </td>
+ 		<td> Subnet Gabungan </td>
+ 	</tr>
+ 	<tr>
+ 		<td> K2 </td>
+ 		<td> J1 dan A19</td>
+ 	</tr>
+</table>
+
+### Penggabungan Kesebelas
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/13c754f7-aa6c-404b-be2f-bec40163643e)
+
+
+<table>
+ 	<tr>
+ 		<td> Subnet Baru </td>
+ 		<td> Subnet Gabungan </td>
+ 	</tr>
+ 	<tr>
+ 		<td> L2 </td>
+ 		<td> J2 dan K2</td>
+ 	</tr>
+</table>
+
+## Pembagian IP CIDR
+<table>
+    <thead>
+        <tr>
+            <th>Subnet</th>
+            <th>Network ID</th>
+            <th>Netmask</th>
+            <th>Broadcast</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>A1</td>
+            <td>192.199.16.0</td>
+            <td>255.255.248.0</td>
+            <td>192.199.23.255</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>192.199.0.0</td>
+            <td>255.255.252.0</td>
+            <td>192.199.3.255</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>192.199.4.0</td>
+            <td>255.255.255.248</td>
+            <td>192.199.4.7</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>192.183.0.0</td>
+            <td>255.255.252.0</td>
+            <td>192.183.3.255</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>192.183.4.0</td>
+            <td>255.255.255.192</td>
+            <td>192.183.4.63</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+            <td>192.183.64.0</td>
+            <td>255.255.255.248</td>
+            <td>192.183.64.7</td>
+        </tr>
+        <tr>
+            <td>A7</td>
+            <td>192.199.4.8</td>
+            <td>255.255.255.252</td>
+            <td>192.199.4.11</td>
+        </tr>
+        <tr>
+            <td>A8</td>
+            <td>192.199.8.0</td>
+            <td>255.255.255.252</td>
+            <td>192.199.8.3</td>
+        </tr>
+        <tr>
+            <td>A9</td>
+            <td>192.199.32.0</td>
+            <td>255.255.255.252</td>
+            <td>192.199.32.3</td>
+        </tr>
+        <tr>
+            <td>A10</td>
+            <td>192.199.64.0</td>
+            <td>255.255.255.224</td>
+            <td>192.199.64.31</td>
+        </tr>
+        <tr>
+            <td>A11</td>
+            <td>192.199.128.0</td>
+            <td>255.255.255.252</td>
+            <td>192.199.128.3</td>
+        </tr>
+        <tr>
+            <td>A12</td>
+            <td>192.200.0.0</td>
+            <td>255.255.255.252</td>
+            <td>192.200.0.3</td>
+        </tr>
+        <tr>
+            <td>A13</td>
+            <td>192.183.32.0</td>
+            <td>255.255.255.252</td>
+            <td>192.183.32.3</td>
+        </tr>
+        <tr>
+            <td>A14</td>
+            <td>192.183.8.0</td>
+            <td>255.255.255.252</td>
+            <td>192.183.8.3</td>
+        </tr>
+        <tr>
+            <td>A15</td>
+            <td>192.183.16.0</td>
+            <td>255.255.255.128</td>
+            <td>192.183.16.127</td>
+        </tr>
+        <tr>
+            <td>A16</td>
+            <td>192.183.128.0</td>
+            <td>255.255.255.252</td>
+            <td>192.183.128.3</td>
+        </tr>
+        <tr>
+            <td>A17</td>
+            <td>192.187.0.0</td>
+            <td>255.255.255.252</td>
+            <td>192.187.0.3</td>
+        </tr>
+        <tr>
+            <td>A18</td>
+            <td>192.201.0.0</td>
+            <td>255.255.255.252</td>
+            <td>192.201.0.3</td>
+        </tr>
+        <tr>
+            <td>A19</td>
+            <td>192.191.0.0</td>
+            <td>255.255.255.0</td>
+            <td>192.191.0.255</td>
+        </tr>
+        <tr>
+            <td>A20</td>
+            <td>192.185.12.0</td>
+            <td>255.255.252.0</td>
+            <td>192.185.15.255</td>
+        </tr>
+	    <tr>
+            <td>A21</td>
+            <td>192.184.22.0</td>
+            <td>255.255.255.0</td>
+            <td>192.184.22.255</td>
+        </tr>
+	         <tr>
+            <td>B1</td>
+            <td>192.183.0.0</td>
+            <td>255.255.248.0</td>
+            <td>192.183.7.255</td>
+        </tr>
+        <tr>
+            <td>B2</td>
+            <td>192.199.4.0</td>
+            <td>255.255.255.240</td>
+            <td>192.199.4.15</td>
+        </tr>
+        <tr>
+            <td>C1</td>
+            <td>192.183.0.0</td>
+            <td>255.255.240.0</td>
+            <td>192.183.15.255</td>
+        </tr>
+        <tr>
+            <td>C2</td>
+            <td>192.199.0.0</td>
+            <td>255.255.248.0</td>
+            <td>192.199.7.255</td>
+        </tr>
+        <tr>
+            <td>D1</td>
+            <td>192.183.0.0</td>
+            <td>255.255.224.0</td>
+            <td>192.183.31.255</td>
+        </tr>
+        <tr>
+            <td>D2</td>
+            <td>192.199.0.0</td>
+            <td>255.255.240.0</td>
+            <td>192.199.15.255</td>
+        </tr>
+        <tr>
+            <td>E1</td>
+            <td>192.183.0.0</td>
+            <td>255.255.192.0</td>
+            <td>192.183.63.255</td>
+        </tr>
+        <tr>
+            <td>E2</td>
+            <td>192.199.0.0</td>
+            <td>255.255.224.0</td>
+            <td>192.199.31.255</td>
+        </tr>
+        <tr>
+            <td>F1</td>
+            <td>192.183.0.0</td>
+            <td>255.255.128.0</td>
+            <td>192.183.127.255</td>
+        </tr>
+        <tr>
+            <td>F2</td>
+            <td>192.199.0.0</td>
+            <td>255.255.192.0</td>
+            <td>192.199.63.255</td>
+        </tr>
+        <tr>
+            <td>G1</td>
+            <td>192.183.0.0</td>
+            <td>255.255.0.0</td>
+            <td>192.183.255.255</td>
+        </tr>
+        <tr>
+            <td>G2</td>
+            <td>192.199.0.0</td>
+            <td>255.255.128.0</td>
+            <td>192.199.127.255</td>
+        </tr>
+        <tr>
+            <td>H1</td>
+            <td>192.183.0.0</td>
+            <td>255.254.0.0</td>
+            <td>192.183.255.255</td>
+        </tr>
+        <tr>
+            <td>H2</td>
+            <td>192.199.0.0</td>
+            <td>255.255.0.0</td>
+            <td>192.199.255.255</td>
+        </tr>
+        <tr>
+            <td>I1</td>
+            <td>192.183.0.0</td>
+            <td>255.252.0.0</td>
+            <td>192.183.255.255</td>
+        </tr>
+        <tr>
+            <td>I2</td>
+            <td>192.199.0.0</td>
+            <td>255.254.0.0</td>
+            <td>192.199.255.255</td>
+        </tr>
+        <tr>
+            <td>J1</td>
+            <td>192.183.0.0</td>
+            <td>255.248.0.0</td>
+            <td>192.183.255.255</td>
+        </tr>
+        <tr>
+            <td>J2</td>
+            <td>192.199.0.0</td>
+            <td>255.252.0.0</td>
+            <td>192.199.255.255</td>
+        </tr>
+        <tr>
+            <td>K1</td>
+            <td>192.183.0.0</td>
+            <td>255.240.0.0</td>
+            <td>192.183.255.255</td>
+        </tr>
+        <tr>
+            <td>L1</td>
+            <td>192.183.0.0</td>
+            <td>255.224.0.0</td>
+            <td>192.183.255.255</td>
+        </tr>
+    </tbody>
+</table>
 
 
 
