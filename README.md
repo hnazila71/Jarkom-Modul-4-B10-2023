@@ -44,9 +44,8 @@
 </table>
 
 #### Penggabungan Kedua
-![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/3a2a6bbf-fa42-44e4-8e6a-701cb7d09cbf)
 ![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/e9de230e-0e28-449f-81e0-d3be3747e547)
-
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/3a2a6bbf-fa42-44e4-8e6a-701cb7d09cbf)
 
 <table>
  	<tr>
@@ -54,14 +53,34 @@
  		<td> Subnet </td>
  	</tr>
  	<tr>
- 		<td> B1 </td>
- 		<td> A4 dan A5</td>
+ 		<td> C1 </td>
+ 		<td> B1 dan A14</td>
  	</tr>
 	 <tr>
-		 <td> B2 </td>
- 		<td> A3 dan A7</td>
+		 <td> C2 </td>
+ 		<td> B2 dan A2</td>
 	 </tr>
 </table>
+
+#### Penggabungan Ketiga
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/e9de230e-0e28-449f-81e0-d3be3747e547)
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/3a2a6bbf-fa42-44e4-8e6a-701cb7d09cbf)
+
+<table>
+ 	<tr>
+ 		<td> Subnet Baru </td>
+ 		<td> Subnet </td>
+ 	</tr>
+ 	<tr>
+ 		<td> C1 </td>
+ 		<td> B1 dan A14</td>
+ 	</tr>
+	 <tr>
+		 <td> C2 </td>
+ 		<td> B2 dan A2</td>
+	 </tr>
+</table>
+
 
 
  
