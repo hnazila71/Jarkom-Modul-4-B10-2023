@@ -17,6 +17,7 @@
  </table>
  
  - [Pengertian VLSM](#pengertian-vlsm)
+ - [Pembagian IP VLSM](#pembagian-ip-vlsm)
  - [Tree VLSM](#tree-ip-vlsm)
  - [Rute VSLM](#rute-vlsm)
  - [Tree CIDR](#tree-cidr)
@@ -27,6 +28,33 @@
 ## Pengertian VLSM
 VLSM, atau Variable Length Subnet Masking, merupakan suatu teknik subnetting di dalam jaringan komputer yang memungkinkan administrator untuk mengalokasikan blok alamat IP dengan panjang masker yang dapat disesuaikan. Berbeda dengan subnetting tradisional yang menggunakan panjang masker tetap untuk seluruh jaringan, VLSM memungkinkan efisiensi penggunaan alamat IP dengan memberikan panjang masker yang sesuai dengan kebutuhan setiap subnet. Dengan VLSM, administrator dapat mengalokasikan blok IP yang lebih besar untuk subnet dengan kebutuhan alamat yang tinggi dan blok IP yang lebih kecil untuk subnet dengan kebutuhan alamat yang lebih rendah. Hal ini membantu mengoptimalkan penggunaan alamat IP dan menghindari pemborosan sumber daya. Sebagai contoh, dalam sebuah blok IP 192.168.0.0/24, VLSM dapat digunakan untuk mengalokasikan subnet dengan panjang masker yang berbeda sesuai dengan kebutuhan masing-masing subnet.
 
+## Pembagian IP VLSM
+```
+| Subnet | Network ID     | Netmask          	    | Broadcast       |
+|--------|----------------|------------------|------|-----------------|
+| A1     | 192.183.24.0   | 255.255.248.0    | /21  | 192.183.7.255   |
+| A2     | 192.183.12.0   | 255.255.252.0    | /22  | 192.183.11.255  |
+| A20    | 192.183.8.0    | 255.255.252.0    | /22  | 192.183.15.255  |
+| A4     | 192.183.16.0   | 255.255.252.0    | /22  | 192.183.19.255  |
+| A15    | 192.183.4.0    | 255.255.254.0    | /23  | 192.183.21.255  |
+| A21    | 192.183.2.0    | 255.255.255.0    | /24  | 192.183.22.255  |
+| A19    | 192.183.1.0    | 255.255.255.0    | /24  | 192.183.23.255  |
+| A5     | 192.183.0.128  | 255.255.255.192  | /26  | 192.183.24.63   |
+| A10    | 192.183.0.64   | 255.255.255.224  | /27  | 192.183.24.95   |
+| A3     | 192.183.0.56   | 255.255.255.248  | /29  | 192.183.24.103  |
+| A6     | 192.183.0.48   | 255.255.255.248  | /29  | 192.183.24.111  |
+| A11    | 192.183.0.36   | 255.255.255.252  | /30  | 192.183.24.115  |
+| A12    | 192.183.0.32   | 255.255.255.252  | /30  | 192.183.24.119  |
+| A13    | 192.183.0.28   | 255.255.255.252  | /30  | 192.183.24.123  |
+| A14    | 192.183.0.24   | 255.255.255.252  | /30  | 192.183.24.127  |
+| A16    | 192.183.0.20   | 255.255.255.252  | /30  | 192.183.24.131  |
+| A17    | 192.183.0.16   | 255.255.255.252  | /30  | 192.183.24.135  |
+| A18    | 192.183.0.12   | 255.255.255.252  | /30  | 192.183.24.139  |
+| A7     | 192.183.0.8    | 255.255.255.252  | /30  | 192.183.24.143  |
+| A8     | 192.183.0.4    | 255.255.255.252  | /30  | 192.183.24.147  |
+| A9     | 192.183.0.0    | 255.255.255.252  | /30  | 192.183.24.151  |
+| A22    | 192.183.0.44   | 255.255.255.252  | /30  | 192.183.0.47    |
+```
 
 ## Tree IP VLSM
 Sebelum Pembagian IP VLSM maka terlebih dahulu membuat tree agar mempermudah untuk pembagian IP.
