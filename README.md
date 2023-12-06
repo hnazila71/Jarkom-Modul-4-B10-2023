@@ -15,7 +15,8 @@
  		<td> 5025211093</td>
 	 </tr>
  </table>
- 
+
+ - 
  - [Pengertian VLSM](#pengertian-vlsm)
  - [Pembagian IP VLSM](#pembagian-ip-vlsm)
  - [Tree VLSM](#tree-ip-vlsm)
@@ -25,6 +26,96 @@
  - [Pembagian IP CIDR](#pembagian-ip-cidr)
  - [Penggabungan CIDR](#penggabungan-cidr)
  
+
+## Routing VLSM 
+Aura 
+```
+route add -net 192.199.64.0 netmask 255.255.255.224 gw 192.199.128.2
+route add -net 192.199.32.0 netmask 255.255.255.252 gw 192.199.128.2 
+route add -net 192.199.8.0 netmask 255.255.255.252 gw 192.199.128.2 
+route add -net 192.199.4.8 netmask 255.255.255.252 gw 192.199.128.2 
+route add -net 192.199.16.0 netmask 255.255.248.0 gw 192.199.128.2 
+route add -net 192.199.0.0 netmask 255.255.252.0 gw 192.199.128.2  
+route add -net 192.199.4.0 netmask 255.255.255.248 gw 192.199.128.2
+route add -net 192.191.0.0 netmask 255.255.255.0 gw 192.201.0.2
+route add -net 192.187.0.0 netmask 255.255.255.252 gw 192.200.0.2
+route add -net 192.183.128.0 netmask 255.255.255.252 gw 192.200.0.2 
+route add -net 192.185.12.0 netmask 255.255.252.0 gw 192.200.0.2 
+route add -net 192.184.22.0 netmask 255.255.255.0 gw 192.200.0.2 
+route add -net 192.183.64.0 netmask 255.255.255.248 gw 192.200.0.2 
+route add -net 192.183.32.0 netmask 255.255.255.252 gw 192.200.0.2 
+route add -net 192.183.8.0 netmask 255.255.255.252 gw 192.200.0.2 
+route add -net 192.183.16.0 netmask 255.255.255.128 gw 192.200.0.2 
+route add -net 192.183.4.0 netmask 255.255.255.192 gw 192.200.0.2 
+route add -net 192.183.0.0 netmask 255.255.252.0 gw 192.200.0.2
+```
+Danken 
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.201.0.1
+```
+
+Eisen
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.200.0.1
+route add -net 192.185.12.0 netmask 255.255.252.0 gw 192.183.128.2
+route add -net 192.184.22.0 netmask 255.255.255.0 gw 192.183.128.2
+route add -net 192.183.16.0 netmask 255.255.255.128 gw 192.183.32.2
+route add -net 192.183.8.0 netmask 255.255.255.252 gw 192.183.32.2 
+route add -net 192.183.4.0 netmask 255.255.255.192 gw 192.183.32.2 
+route add -net 192.183.0.0 netmask 255.255.252.0 gw 192.183.32.2
+```
+
+Fern
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.199.8.1
+```
+
+Flamme
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.199.32.1
+route add -net 192.199.16.0 netmask 255.255.248.0 gw 192.199.8.2
+route add -net 192.199.4.0 netmask 255.255.255.248 gw 192.199.4.10
+```
+
+Frieren
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.199.128.1
+route add -net 10.11.248.0 netmask 255.255.252.0 gw 192.199.32.2
+route add -net 10.11.240.0 netmask 255.255.255.252 gw 192.199.32.2 
+route add -net 10.11.224.0 netmask 255.255.248.0 gw 192.199.32.2 
+route add -net 10.11.252.0 netmask 255.255.255.248 gw 192.199.32.2 
+route add -net 10.11.254.0 netmask 255.255.255.252 gw 192.199.32.2
+```
+
+Heiter
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.183.4.1
+```
+
+Himmel
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.199.4.9
+```
+
+Lawine
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.183.8.1
+route add -net 192.183.0.0 netmask 255.255.252.0 gw 192.183.4.3
+```
+
+Linie
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.183.32.1
+route add -net 192.183.4.0 netmask 255.255.255.192 gw 192.183.8.2
+route add -net 192.183.0.0 netmask 255.255.252.0 gw 192.183.8.2
+```
+
+Lugner
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.183.128.1
+```
+
+
 
 ## Pengertian VLSM
 VLSM, atau Variable Length Subnet Masking, merupakan suatu teknik subnetting di dalam jaringan komputer yang memungkinkan administrator untuk mengalokasikan blok alamat IP dengan panjang masker yang dapat disesuaikan. Berbeda dengan subnetting tradisional yang menggunakan panjang masker tetap untuk seluruh jaringan, VLSM memungkinkan efisiensi penggunaan alamat IP dengan memberikan panjang masker yang sesuai dengan kebutuhan setiap subnet. Dengan VLSM, administrator dapat mengalokasikan blok IP yang lebih besar untuk subnet dengan kebutuhan alamat yang tinggi dan blok IP yang lebih kecil untuk subnet dengan kebutuhan alamat yang lebih rendah. Hal ini membantu mengoptimalkan penggunaan alamat IP dan menghindari pemborosan sumber daya. Sebagai contoh, dalam sebuah blok IP 192.168.0.0/24, VLSM dapat digunakan untuk mengalokasikan subnet dengan panjang masker yang berbeda sesuai dengan kebutuhan masing-masing subnet.
