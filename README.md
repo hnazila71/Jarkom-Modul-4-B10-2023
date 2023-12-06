@@ -17,12 +17,12 @@
  </table>
  
  - [Pengertian VLSM](#pengertian-vlsm)
+ - [Tree VLSM](#tree-ip-vlsm)
+ - [Rute VSLM](#rute-vlsm)
  - [Tree CIDR](#tree-cidr)
  - [Pembagian IP CIDR](#pembagian-ip-cidr)
  - [Penggabungan CIDR](#penggabungan-cidr)
- - [Tree VLSM](#tree-ip-vlsm)
- - [Rute VSLM](#rute-vlsm)
-
+ 
 
 ## Pengertian VLSM
 VLSM, atau Variable Length Subnet Masking, merupakan suatu teknik subnetting di dalam jaringan komputer yang memungkinkan administrator untuk mengalokasikan blok alamat IP dengan panjang masker yang dapat disesuaikan. Berbeda dengan subnetting tradisional yang menggunakan panjang masker tetap untuk seluruh jaringan, VLSM memungkinkan efisiensi penggunaan alamat IP dengan memberikan panjang masker yang sesuai dengan kebutuhan setiap subnet. Dengan VLSM, administrator dapat mengalokasikan blok IP yang lebih besar untuk subnet dengan kebutuhan alamat yang tinggi dan blok IP yang lebih kecil untuk subnet dengan kebutuhan alamat yang lebih rendah. Hal ini membantu mengoptimalkan penggunaan alamat IP dan menghindari pemborosan sumber daya. Sebagai contoh, dalam sebuah blok IP 192.168.0.0/24, VLSM dapat digunakan untuk mengalokasikan subnet dengan panjang masker yang berbeda sesuai dengan kebutuhan masing-masing subnet.
