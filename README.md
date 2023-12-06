@@ -16,7 +16,7 @@
 	 </tr>
  </table>
 
- - 
+ - [Routing VLSM](#routing-vlsm) 
  - [Pengertian VLSM](#pengertian-vlsm)
  - [Pembagian IP VLSM](#pembagian-ip-vlsm)
  - [Tree VLSM](#tree-ip-vlsm)
@@ -26,6 +26,18 @@
  - [Pembagian IP CIDR](#pembagian-ip-cidr)
  - [Penggabungan CIDR](#penggabungan-cidr)
  
+## Testing
+GNS
+
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/227311a5-ca1b-41dd-a0c4-76ae4fe26009)
+
+PKT
+
+
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/af3c25f4-f7e7-496d-9b74-92467723ca1d)
+
+
+
 
 ## Routing VLSM 
 Aura 
