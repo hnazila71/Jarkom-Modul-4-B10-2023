@@ -16,6 +16,8 @@
 	 </tr>
  </table>
 
+[vlsm](#TREE)
+
 ## Tree IP VLSM
 Sebelum Pembagian IP VLSM maka terlebih dahulu membuat tree agar mempermudah untuk pembagian IP.
 
