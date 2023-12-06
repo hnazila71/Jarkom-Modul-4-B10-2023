@@ -25,7 +25,50 @@ Pertama kami mencari /19 karena paling besar atau bisa dibilang total dari selur
 
 ![Alt text](image-2.png)
         
-Setelah bagian kiri habis sampai /30 paling kecil. Namun tidak ditambah IP berbeda dengan children bagian kanan
+Setelah bagian kiri habis sampai /30 paling kecil. Namun tidak ditambah IP berbeda dengan children bagian kanan. Jadi utamakan children kiri jika sudah habis maka naik satu persatu ke parent lalu turun ke children kanan. Lakukan sampai sudah terpenuhi
+<table>
+    <thead>
+        <tr>
+            <th>Netmask</th>
+            <th>Jumlah</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>/30</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>/29</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>/27</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>/26</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>/24</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>/23</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>/22</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>/21</td>
+            <td>1</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ![Alt text](image-3.png)
  
