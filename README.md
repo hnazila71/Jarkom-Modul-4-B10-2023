@@ -1,4 +1,4 @@
-![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/986b5b04-287d-471a-a9ac-15abecd5cdb0)# Jarkom-Modul-4-B10-2023
+# Jarkom-Modul-4-B10-2023
 
 ### Nama Anggota B10
  <table>
@@ -16,12 +16,31 @@
 	 </tr>
  </table>
 
+## Tree IP VLSM
+Sebelum Pembagian IP VLSM maka terlebih dahulu membuat tree agar mempermudah untuk pembagian IP.
+![Alt text](image-1.png)
+Pertama kami mencari /19 karena paling besar atau bisa dibilang total dari seluruhnya. Mengapa diambil /19 karena total jumlah IP adalah 4255 tanpa NAT - Aura. Jadi ambil diatasnya karena untuk /20 tidak cukup dengan 4096 adresses. Setelah itu, kami menghabiskan children bagian kiri 
+    ![Alt text](image-2.png)
+Setelah bagian kiri habis sampai /30 paling kecil. Namun tidak ditambah IP berbeda dengan children bagian kanan
+![Alt text](image-3.png)
+Children bagian kanan akan ditambah dengan /30 jika /30 adalah children. Contoh
+<table>
+ 	<tr>
+ 		<td> Awal </td>
+        <td> Netmask </td>
+ 		<td> Akhir </td>
+ 	</tr>
+ 	<tr>
+ 		<td> 192.183.0.0 </td>
+ 		<td> /30</td>
+        <td> 192.183.0.4</td>
+ 	</tr>
+</table>
  ## Rute VLSM
  Kami membagi rute menjadi 21 A dan agar mempermudah mengingatnya kami membuat mengular A1 sampai A20. 
  ![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/39f70c54-1a2b-4a97-bdc4-cbf98f480ed1)
 
  Setelah kami bagi seperti itu kami membuat penggabungan CIDR 
-
 
  ## Penggabungan CIDR
 ### Penggabungan Pertama
@@ -501,15 +520,15 @@
 </table>
 ![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/e60f4543-3004-4acf-bb04-65cfcd8ff999)
 
+
+## Tree CIDR
 Kami membuat tree dengan penjelasan 
 1. Kami membuat parent awal 192.183.0.0/11 itu IP paling awal jika di tabel adalah L1 paling bawah. Jadi pembacaannya dari bawah ke atas
 2. Setelah parent terbuat ip akan diturunkan pada kedua anaknya dengan awal ip sama tetapi Netmask yang berbeda
    ![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/9fb25a49-1caf-43f9-a55a-3f7c5fd2b784)
-3. Jika sudah diturunkan ipnya, dapat dibandingan. Jika netmasknya lebih besar (/12 > /14 
+3. Jika sudah diturunkan ipnya, dapat dibandingan. Jika netmasknya lebih besar ( /12 > /14 ) maka ip bagian /14 akan (192.183.0.0/14) + (0.0.16.0) ditambah SubnetMask /12
 
-
-
-
+    ![Alt text](image.png)
 
  
 
