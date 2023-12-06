@@ -23,7 +23,8 @@ Sebelum Pembagian IP VLSM maka terlebih dahulu membuat tree agar mempermudah unt
  
 Pertama kami mencari /19 karena paling besar atau bisa dibilang total dari seluruhnya. Mengapa diambil /19 karena total jumlah IP adalah 4255 tanpa NAT - Aura. Jadi ambil diatasnya karena untuk /20 tidak cukup dengan 4096 adresses. Setelah itu, kami menghabiskan children bagian kiri 
 
-![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/128909158/615f8643-20d1-43b5-9f8a-0eed8a2fa249)
+![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/128909158/b19e4e64-80a3-4242-8c18-cfc327de86c0)
+
 
         
 Setelah bagian kiri habis sampai /30 paling kecil. Namun tidak ditambah IP berbeda dengan children bagian kanan. Jadi utamakan children kiri jika sudah habis maka naik satu persatu ke parent lalu turun ke children kanan. Lakukan sampai sudah terpenuhi
