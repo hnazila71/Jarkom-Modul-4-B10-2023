@@ -21,6 +21,7 @@
  - [Tree VLSM](#tree-ip-vlsm)
  - [Rute VSLM](#rute-vlsm)
  - [Tree CIDR](#tree-cidr)
+ - [Pengertian CIDR](#pengertian-cidr)
  - [Pembagian IP CIDR](#pembagian-ip-cidr)
  - [Penggabungan CIDR](#penggabungan-cidr)
  
@@ -351,6 +352,9 @@ Children bagian kanan akan ditambah dengan /30 jika /30 adalah children. Contoh
  		<td> J2 dan K2</td>
  	</tr>
 </table>
+
+## Pengertian CIDR
+CIDR, atau Classless Inter-Domain Routing, adalah suatu sistem notasi untuk menyatakan alamat IP dan prefix length (panjang masker subnet) sebagai bagian dari alamat IP. CIDR memungkinkan pengelompokan alamat IP secara lebih efisien dibandingkan dengan metode lama yang menggunakan kelas A, B, atau C. Dalam CIDR, alamat IP dituliskan bersama dengan prefix length dalam bentuk notasi "/x", di mana "x" adalah jumlah bit dalam alamat IP yang digunakan sebagai network prefix. Misalnya, notasi CIDR "192.168.1.0/24" menunjukkan bahwa 24 bit pertama dari alamat IP tersebut digunakan sebagai network prefix, dan sisanya dapat digunakan untuk mengidentifikasi host dalam subnet tersebut. CIDR memberikan fleksibilitas yang besar dalam pengelolaan alamat IP dan memungkinkan penggunaan subnet dengan ukuran yang dapat disesuaikan, yang sangat penting dalam teknik subnetting modern seperti VLSM (Variable Length Subnet Masking).
 
 ## Pembagian IP CIDR
 <table>
