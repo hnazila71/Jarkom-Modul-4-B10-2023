@@ -16,7 +16,11 @@
 	 </tr>
  </table>
 
-[vlsm](#TREE)
+ - [Tree CIDR](#tree-cidr)
+ - [Pembagian IP CIDR](#pembagian-ip-cidr)
+ - [Penggabungan CIDR](#penggabungan-cidr)
+ - [Tree VLSM](#tree-ip-vlsm)
+ - [Rute VSLM](#rute-vlsm)
 
 ## Tree IP VLSM
 Sebelum Pembagian IP VLSM maka terlebih dahulu membuat tree agar mempermudah untuk pembagian IP.
