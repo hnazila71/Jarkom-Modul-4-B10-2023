@@ -44,7 +44,7 @@ Children bagian kanan akan ditambah dengan /30 jika /30 adalah children. Contoh
 </table>
 
  ## Rute VLSM
- Kami membagi rute menjadi 21 A dan agar mempermudah mengingatnya kami membuat mengular A1 sampai A20. 
+ Kami membagi rute menjadi 21 A dan agar mempermudah mengingatnya kami membuat mengular A1 sampai A21. 
  
  ![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/39f70c54-1a2b-4a97-bdc4-cbf98f480ed1)
 
