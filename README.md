@@ -18,11 +18,17 @@
 
 ## Tree IP VLSM
 Sebelum Pembagian IP VLSM maka terlebih dahulu membuat tree agar mempermudah untuk pembagian IP.
+
 ![Alt text](image-1.png)
+ 
 Pertama kami mencari /19 karena paling besar atau bisa dibilang total dari seluruhnya. Mengapa diambil /19 karena total jumlah IP adalah 4255 tanpa NAT - Aura. Jadi ambil diatasnya karena untuk /20 tidak cukup dengan 4096 adresses. Setelah itu, kami menghabiskan children bagian kiri 
-    ![Alt text](image-2.png)
+
+![Alt text](image-2.png)
+        
 Setelah bagian kiri habis sampai /30 paling kecil. Namun tidak ditambah IP berbeda dengan children bagian kanan
+
 ![Alt text](image-3.png)
+ 
 Children bagian kanan akan ditambah dengan /30 jika /30 adalah children. Contoh
 <table>
  	<tr>
@@ -36,8 +42,10 @@ Children bagian kanan akan ditambah dengan /30 jika /30 adalah children. Contoh
         <td> 192.183.0.4</td>
  	</tr>
 </table>
+
  ## Rute VLSM
  Kami membagi rute menjadi 21 A dan agar mempermudah mengingatnya kami membuat mengular A1 sampai A20. 
+ 
  ![image](https://github.com/hnazila71/Jarkom-Modul-4-B10-2023/assets/114125438/39f70c54-1a2b-4a97-bdc4-cbf98f480ed1)
 
  Setelah kami bagi seperti itu kami membuat penggabungan CIDR 
